@@ -18,7 +18,7 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("Медитация")
         self.setStyleSheet(CONST_MAIN_WINDOW)
-        self.setFixedSize(450, 350)
+        self.setFixedSize(800, 600)
         self.setWindowIcon(QIcon(r"Image\icon.webp"))
         
         control_UI = QVBoxLayout()
